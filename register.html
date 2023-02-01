@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<style>
+    body{
+        background-position: center center;
+        background-color: black;
+    }
+    legend{
+        color:blueviolet;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    form{
+        background-color: rgb(113 91 140);
+    }
+    div{
+        text-align: center;
+        text-decoration: underline;
+        color:pink;
+    } 
+    h3{
+        color:rgb(237 237 237)
+    }
+</style>
+<body>
+    
+    <div>
+        <h3>Admission Registration 2022-23</h3>
+    </div>
+    <h3>Student Registration Form</h3>
+    </div>
+    <fieldset>
+        <legend>Form:</legend>
+    <form action="">
+        <label>First Name:</label><input type="text" name="name">(Max 50 characters Allowed)
+        <br><br>
+        <label>Last Name:</label><input type="text" name="name">(Max 50 characters Allowed)
+        <br><br>
+        <label>Email ID:</label><input type="email" name="name"><br><br>
+        <label>Mobile Number:</label><input type="number" name="mobile"><br><br>
+        <label>Gender:</label>
+        <input type="radio" name="Gender" value="Male" />Male
+        <input type="radio" name="Gender" value="Female" />Female
+        <label>DOB:</label><input type="date" name="DOB"><br><br>
+        <label>Adress:</label><textarea rows="3" cols="40"></textarea><br><br>
+        <label>City:</label><input type="text" name="City"><br><br>
+        <label>Pin code:</label><input type="number" name="Pin Code"><br><br>
+        <label>State:</label><input type="text" name="state"><br><br>
+        <label>Country:</label><input type="text" name="country"><br><br>
+        Hobbies:<input type="checkbox" name="HobbyDrawing" value="Drawing" />Drawing
+        <input type="checkbox" name="HobbySinging" value="Singing" /> Singing
+        <input type="checkbox" name="HobbyDancing" value="Dancing" /> Dancing
+        <input type="checkbox" name="HobbyCooking" value="Cooking" />Sketching<br />
+        <input type="checkbox" name="HobbyOther" value="Other"> Others
+        <input type="text" name="Other_Hobby" maxlength="50" placeholder="Ex- Teaching" />(Max 50 Characters Allowed)
+        <br><br>
+        Qualification:<br>
+        <input type="checkbox" name="HighSchool" value="High School" /> High School(10th)<br> 
+        <input type="checkbox" name="HigherSchool" value="Higher School"/>Higher School(12th)<br> 
+        
+        <input type="checkbox" name="Graduation" value="Graduation" /> Graduation(Bachelors)<br> 
+        
+        <input type="checkbox" name="PostGraduation" value="Post Graduation" /> Post Graduation(Masters)<br><br>
+        Courses applied for:
+        <select name="Course" id="1">  
+            <option>BCA(Bachelor of Computer Applications)</option> 
+            <option>B.Com(Bachelor of Commerce)</option> 
+            <option>B.Sc(Bachelor of Science)</option> 
+            <option>B.Tech - School of Engineering</option> 
+            <option>BBL - Law </option> 
+            
+            </select> <br><br>
+            <button>Submit</button> <button>Reset</button>
+        </fieldset>
+    </form> 
+</body>
+</html> 
